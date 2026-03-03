@@ -103,6 +103,7 @@ void BenchmarkKernel(const CLApp &cli, const GraphT_ &g,
   g.PrintStats();
   double total_seconds = 0;
   Timer trial_timer;
+  ariel_enable(true);
   for (int iter=0; iter < cli.num_trials(); iter++) {
     trial_timer.Start();
     auto result = kernel(g);
