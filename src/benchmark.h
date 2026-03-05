@@ -16,6 +16,7 @@
 #include "timer.h"
 #include "util.h"
 #include "writer.h"
+#include "annotations.h"
 
 
 /*
